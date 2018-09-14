@@ -26,15 +26,6 @@ public class Person {
     }
 
     /**
-     * Sets id.
-     *
-     * @param id the id
-     */
-    public void setId(final String id) {
-        this.id = id;
-    }
-
-    /**
      * Gets name.
      *
      * @return the name

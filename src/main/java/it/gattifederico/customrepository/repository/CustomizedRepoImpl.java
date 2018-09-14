@@ -17,8 +17,8 @@ class CustomizedRepoImpl implements CustomizedRepo {
     }
 
     @Override
-    public <S extends Person> S save(S entity) {
-        entity.setName("pppp");
+    public <S extends Person> S save(final S entity) {
+        entity.setName("Override name By Custom Save ;)");
         mongoTemplate.save(entity);
         return entity;
     }
